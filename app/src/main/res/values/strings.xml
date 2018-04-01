@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">Refresh</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_meals">Meals</string>
+    <string name="title_basket">Basket</string>
+    <string name="title_account">Account</string>
+
+    <string name="notifications">Notifications</string>
+    <string-array name="card_names">
+        <item>Visa</item>
+        <item>Mastercard</item>
+        <item>American Express</item>
+        <item>Discover</item>
+        <item>Pay-Pal</item>
+        </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
