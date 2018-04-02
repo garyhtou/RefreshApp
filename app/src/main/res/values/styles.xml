@@ -16,4 +16,28 @@
         <item name="android:orientation">vertical</item>
     </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="ExpandedTextDark">
+        <item name="android:textColor">@color/class_title_dark</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style><style name="ExpandedTextDarkLong">
+    <item name="android:textColor">@color/class_title_dark</item>
+    <item name="android:layout_gravity">center_vertical</item>
+    <item name="android:textSize">@dimen/class_title_size</item>
+</style><style name="ExpandedTextDarkMed">
+    <item name="android:textColor">@color/class_title_dark</item>
+    <item name="android:layout_gravity">center_vertical</item>
+    <item name="android:textSize">@dimen/class_title_size_MED</item>
+</style><style name="ExpandedTextLight">
+    <item name="android:textColor">@color/class_title_light</item>
+    <item name="android:layout_gravity">center_vertical</item>
+</style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

@@ -41,7 +41,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="19dp"
                         android:background="@android:color/transparent"
-                        android:text="Black and Pinto Bean salad with red onions, garlic, corn and parsley"
+                        android:text="@string/meal1"
                         android:textSize="@dimen/class_text_size" />
 
                 </LinearLayout>
@@ -74,7 +74,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="19dp"
                         android:background="@android:color/transparent"
-                        android:text="Shrimp and brown rice with broccoli, pea pods, green beans, carrots, tomatoes and Scallions"
+                        android:text="@string/meal2"
                         android:textSize="@dimen/class_text_size" />
 
                 </LinearLayout>
@@ -107,7 +107,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="19dp"
                         android:background="@android:color/transparent"
-                        android:text="Chicken and black beans with a spring salad"
+                        android:text="@string/meal3"
                         android:textSize="@dimen/class_text_size" />
 
                 </LinearLayout>

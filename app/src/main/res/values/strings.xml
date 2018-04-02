@@ -13,4 +13,30 @@
         <item>Pay-Pal</item>
         </string-array>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="meal1">Black and Pinto Bean salad with red onions, garlic, corn and parsley</string>
+    <string name="meal2">Shrimp and brown rice with broccoli, pea pods, green beans, carrots, tomatoes and Scallions</string>
+    <string name="meal3">Chicken and black beans with a spring salad</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="meal1_ingredients">•1 (15 ounce) can black beans, rinsed and drained \n•1 (15 ounce) can pinto beans, rinsed and drained\n•1 green bell pepper, chopped
+    \n•1 red bell pepper, chopped\n•1 (10 ounce) package corn kernels\n•1 red onion, chopped\n•1/2 cup olive oil\n•1/2 cup red wine vinegar\n•2 tablespoons fresh lime juice\n•1 tablespoon lemon juice
+        \n•1 clove crushed garlic\n•1/4 cup chopped fresh parsley\n•1/2 tablespoon ground cumin\n•1/2 tablespoon ground black pepper\n•1 dash hot pepper sauce\n•
+    1/2 teaspoon chili powder</string>
+    <string name="meal1_step1">In a large bowl, combine beans, bell peppers, corn, and red onion.</string>
+    <string name="meal1_step2">In a small bowl, whisk together olive oil, red wine vinegar, lime juice,
+        lemon juice, garlic, parsley, cumin, and black pepper. Season to taste with hot sauce and chili powder.</string>
+    <string name="meal1_step3">Pour olive oil dressing over vegetables; mix well. Chill thoroughly, and serve cold.</string>
+    <string name="step_one">Step 1</string>
+    <string name="step_two">Step 2</string>
+    <string name="step_three">Step 3</string>
+    <string name="step_four">Step 4</string>
+    <string name="step_five">Step 5</string>
+    <string name="sample_text">Aliquatjusto quisque nam consequat doloreet vest
+        orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis
+        felisi eger id justo maurisus convallicitur. Dapiensociis temper donec
+        auctortortis cumsan et curabitur condis lorem loborttis leo. Ipsumcommodo libero
+        nunc at in velis tincidunt pellentum tincidunt vel lorem.Portortornec condimenterdum
+        eget consectetuer condis consequam pretium pellus sed mauris enim. Puruselit mauris nulla
+        hendimentesque elit semper nam a sapien urna sempus.</string>
+    <string name="add_meal">Add Meal to Basket</string>
+    <string name="added_meal">Added Meal to Basket</string>
 </resources>
