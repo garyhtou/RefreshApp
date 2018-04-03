@@ -80,6 +80,34 @@ public class MealFragment extends android.support.v4.app.Fragment {
                 Intent intent1 =  new Intent(getActivity(), Meal1Activity.class);
                 startActivity(intent1);            }
         });
+        ImageButton imgbutton2 =  view.findViewById(R.id.imageButton2);
+        Button button2 = view.findViewById(R.id.food2_button);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 =  new Intent(getActivity(), Meal2Activity.class);
+                startActivity(intent1);            }
+        });
+        imgbutton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 =  new Intent(getActivity(), Meal2Activity.class);
+                startActivity(intent1);            }
+        });
+        ImageButton imgbutton3 =  view.findViewById(R.id.imageButton3);
+        Button button3 = view.findViewById(R.id.food3_button);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 =  new Intent(getActivity(), Meal3Activity.class);
+                startActivity(intent1);            }
+        });
+        imgbutton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 =  new Intent(getActivity(), Meal3Activity.class);
+                startActivity(intent1);            }
+        });
         return view;
     }
 

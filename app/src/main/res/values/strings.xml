@@ -3,8 +3,8 @@
     <string name="title_meals">Meals</string>
     <string name="title_basket">Basket</string>
     <string name="title_account">Account</string>
-
     <string name="notifications">Notifications</string>
+
     <string-array name="card_names">
         <item>Visa</item>
         <item>Mastercard</item>
@@ -12,24 +12,52 @@
         <item>Discover</item>
         <item>Pay-Pal</item>
         </string-array>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="meal1">Black and Pinto Bean salad with red onions, garlic, corn and parsley</string>
-    <string name="meal2">Shrimp and brown rice with broccoli, pea pods, green beans, carrots, tomatoes and Scallions</string>
-    <string name="meal3">Chicken and black beans with a spring salad</string>
+    <string name="meal3">Shrimp and brown rice with broccoli, pea pods, green beans, carrots, tomatoes and Scallions</string>
+    <string name="meal2">Chicken and black beans with a spring salad</string>
+
     <string name="ingredients">Ingredients</string>
     <string name="meal1_ingredients">•1 (15 ounce) can black beans, rinsed and drained \n•1 (15 ounce) can pinto beans, rinsed and drained\n•1 green bell pepper, chopped
     \n•1 red bell pepper, chopped\n•1 (10 ounce) package corn kernels\n•1 red onion, chopped\n•1/2 cup olive oil\n•1/2 cup red wine vinegar\n•2 tablespoons fresh lime juice\n•1 tablespoon lemon juice
         \n•1 clove crushed garlic\n•1/4 cup chopped fresh parsley\n•1/2 tablespoon ground cumin\n•1/2 tablespoon ground black pepper\n•1 dash hot pepper sauce\n•
     1/2 teaspoon chili powder</string>
+
     <string name="meal1_step1">In a large bowl, combine beans, bell peppers, corn, and red onion.</string>
     <string name="meal1_step2">In a small bowl, whisk together olive oil, red wine vinegar, lime juice,
         lemon juice, garlic, parsley, cumin, and black pepper. Season to taste with hot sauce and chili powder.</string>
     <string name="meal1_step3">Pour olive oil dressing over vegetables; mix well. Chill thoroughly, and serve cold.</string>
+
+    <string name="meal2_ingredients">Marinade/Dressing:\n•2 tablespoons olive oil\n•1/4 cup fresh squeezed lemon juice\n•2 tablespoons water\n•2 tablespoons red wine vinegar\n•2 tablespoons fresh chopped parsley
+    \nSalad:\n•2 teaspoons dried basil\n•2 teaspoons garlic , minced\n•1 teaspoon dried oregano\n•1 teaspoon salt\n•cracked pepper , to taste\n•(1 pound | 500 g) 4 skinless, boneless chicken thigh fillets (or chicken breasts)
+    \n•4 cups Romaine lettuce leaves, washed and dried\n•1 large cucumber , diced\n•2 Roma tomatoes , diced\n•1 red onion , sliced\n•1 avocado , sliced\n•1/3 cup pitted Kalamata olives (or black olives), sliced
+    \n•Lemon wedges , to serve\n•Optional: 1/2 cup crumbled feta</string>
+
+    <string name="meal2_step1">Whisk together all of the marinade/dressing ingredients in a large jug. Pour out half of the marinade into a large, shallow dish. Refrigerate the remaining marinade to use as the dressing later.</string>
+    <string name="meal2_step2">Add the chicken to the marinade in the bowl; marinade chicken for 15–30 minutes (or up to two hours in the refrigerator if time allows). While waiting for the chicken, prepare all of the salad ingredients and mix in a large salad bowl.</string>
+    <string name="meal2_step3">Once chicken is ready, heat 1 tablespoon of oil in a grill pan or a grill plate over medium-high heat. Grill chicken on both sides until browned and completely cooked through.</string>
+    <string name="meal2_step4">Allow chicken to rest for 5 minutes; slice and arrange over salad. Drizzle salad with the remaining UNTOUCHED dressing. Serve with lemon wedges.</string>
+    <string name="meal2_optional">Add ½ cup crumbled feta to give the salad an even better flavour!</string>
+
+    <string name="meal3_ingredients">•1 tablespoon unsalted butter\n•2 tablespoons extra-virgin olive oil\n•3 cloves garlic, minced\n•1 pound large shrimp, peeled and deveined\n•Kosher salt and freshly ground pepper
+    \n•4 plum tomatoes, chopped\n•3 cups cooked brown rice\n•2 bunches scallions, chopped\n•3 tablespoons chopped fresh parsley\n•1 cup carrots\n•1 cup peas\n•1 cup green beans\n•1 head broccoli florets
+    \n•Optional: Lemon wedges, for serving</string>
+
+    <string name="meal3_step1">Heat the butter, olive oil and garlic in a large skillet over medium-high heat until fragrant, about 1 minute.</string>
+    <string name="meal3_step2">Add the shrimp and cook, stirring, until the shrimp begin to curl, about 1 minute. Season with salt and pepper.</string>
+    <string name="meal3_step3">Add the tomatoes and scallions to the skillet and cook, stirring, about 1 minute.</string>
+    <string name="meal3_step4"> Add the rice and ¼ cup water and continue to cook until the rice is warmed through and the shrimp are opaque, about 3 more minutes. Stir in the parsley</string>
+    <string name="meal3_optional">Serve with lemon, if desired.</string>
+
     <string name="step_one">Step 1</string>
     <string name="step_two">Step 2</string>
     <string name="step_three">Step 3</string>
     <string name="step_four">Step 4</string>
     <string name="step_five">Step 5</string>
+    <string name="optional">Optional</string>
+
     <string name="sample_text">Aliquatjusto quisque nam consequat doloreet vest
         orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis
         felisi eger id justo maurisus convallicitur. Dapiensociis temper donec
@@ -37,6 +65,7 @@
         nunc at in velis tincidunt pellentum tincidunt vel lorem.Portortornec condimenterdum
         eget consectetuer condis consequam pretium pellus sed mauris enim. Puruselit mauris nulla
         hendimentesque elit semper nam a sapien urna sempus.</string>
+
     <string name="add_meal">Add Meal to Basket</string>
     <string name="added_meal">Added Meal to Basket</string>
 </resources>

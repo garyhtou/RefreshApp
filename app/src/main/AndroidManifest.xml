@@ -8,6 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:screenOrientation="portrait"
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
@@ -20,6 +21,19 @@
         </activity>
         <activity
             android:name=".Meal1Activity"
+            android:label=""
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Meal2Activity"
+            android:label=""
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Meal3Activity"
             android:label=""
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
