@@ -47,7 +47,12 @@ public class MainActivity extends AppCompatActivity {
         Toolbar Toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(Toolbar);
         getSupportActionBar().setTitle("");
-        ((Toolbar) findViewById(R.id.toolbar)).setLogo(R.drawable.refresh_name_white);
+        int choose = 2;
+        if (choose == 1) {
+            ((Toolbar) findViewById(R.id.toolbar)).setLogo(R.drawable.refresh_name_white);
+        }
+        if (choose == 2)
+            ((Toolbar) findViewById(R.id.toolbar)).setLogo(R.drawable.refresh_logo_truckw);
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
