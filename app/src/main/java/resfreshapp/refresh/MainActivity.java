@@ -1,5 +1,6 @@
 package resfreshapp.refresh;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -75,11 +76,10 @@ public class MainActivity extends AppCompatActivity {
             case android.R.id.home:
                 NavUtils.navigateUpFromSameTask(this);
                 return true;
-            case R.id.action_notification:/*
-                Intent intent1 =  new Intent(Class1Homework.this, addHomework1.class);
-                startActivity(intent1);*/
-                Toast t = Toast.makeText(getApplicationContext(), "Notifications", Toast.LENGTH_LONG);
-                t.show();
+            case R.id.action_notification:
+                Intent intent1 =  new Intent(MainActivity.this, NotificationActivity.class);
+                startActivity(intent1);
+
         }
         return super.onOptionsItemSelected(item);
     }
