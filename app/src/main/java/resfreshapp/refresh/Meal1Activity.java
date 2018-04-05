@@ -61,6 +61,7 @@ public class Meal1Activity extends AppCompatActivity {
                return true;
         }
         if (item.getTitle() == "Add") {
+            BasketFragment.mealList.add(new Meal(getString(R.string.meal1),getDrawable(R.drawable.bean_salad)));
             Snackbar.make(getWindow().getDecorView(), R.string.added_meal, Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show();
         }

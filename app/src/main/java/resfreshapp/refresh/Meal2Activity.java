@@ -61,6 +61,7 @@ public class Meal2Activity extends AppCompatActivity {
                 return true;
         }
         if (item.getTitle() == "Add") {
+            BasketFragment.mealList.add(new Meal(getString(R.string.meal2),getDrawable(R.drawable.chicken_salad)));
             Snackbar.make(getWindow().getDecorView(), R.string.added_meal, Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show();
         }

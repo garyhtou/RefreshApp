@@ -4,10 +4,26 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
+import android.support.v7.widget.DividerItemDecoration;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
+import android.content.Context;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
+import android.view.GestureDetector;
+import android.view.MotionEvent;
+import android.view.View;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -25,6 +41,10 @@ public class BasketFragment extends android.support.v4.app.Fragment {
 
     private String mParam1;
     private String mParam2;
+    public static List<Meal> mealList = new ArrayList<>();
+    RecyclerView recyclerView;
+    MealAdapter mAdapter;
+    public TextView blank;
 
     private OnFragmentInteractionListener mListener;
 
@@ -61,8 +81,40 @@ public class BasketFragment extends android.support.v4.app.Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_basket, container, false);
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_basket, container, false);
+         recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
+         blank = (TextView) view.findViewById(R.id.blank);
+         //blank.setVisibility(View.INVISIBLE);
+        mAdapter = new MealAdapter(mealList);
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getContext());
+        recyclerView.setLayoutManager(mLayoutManager);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.addItemDecoration(new DividerItemDecoration(getContext(), LinearLayoutManager.VERTICAL));
+        recyclerView.setAdapter(mAdapter);
+        if (mAdapter.getItemCount() == 0){
+            blank.setVisibility(View.VISIBLE);
+        }
+        else
+            blank.setVisibility(View.INVISIBLE);
+
+        recyclerView.addOnItemTouchListener(new RecyclerTouchListener(getContext(), recyclerView, new ClickListener() {
+            @Override
+            public void onClick(View view, int position) {
+
+            }
+
+            @Override
+            public void onLongClick(View view, int position) {
+                Toast.makeText(getContext(), "Removed Meal: "+ mealList.get(position).getTitle(), Toast.LENGTH_LONG).show();
+                mealList.remove(position) ;
+                mAdapter.notifyDataSetChanged();
+                if (mAdapter.getItemCount() == 0){
+                    blank.setVisibility(View.VISIBLE);
+                }
+            }
+        }));
+        return view;
     }
 
     public void onButtonPressed(Uri uri) {
